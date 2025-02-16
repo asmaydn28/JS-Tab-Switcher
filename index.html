@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS-Tab-Switcher</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="row g-0 border-bottom border-black border-5">
+        <div class="col">
+            <button id="tab1-button" onclick="firstContent()" type="button" class="btn btn-outline-primary border-0 rounded-0 w-100 fw-semibold">London</button>
+        </div>
+        <div class="col">
+            <button id="tab2-button" onclick="secondContent()" type="button" class="btn btn-outline-danger border-0 rounded-0 w-100 fw-semibold">Paris</button>
+        </div>
+        <div class="col">
+            <button id="tab3-button" onclick="thirdContent()" type="button" class="btn btn-outline-success border-0 rounded-0 w-100 fw-semibold">Tokyo</button>
+        </div>
+    </div>
+
+    <section id="tab1-content" class="bg-primary vh-100 text-white p-5 text-center">
+        <div class="pt-5 mt-5">
+            <h1 class="display-1 fw-semibold">London</h1>
+            <h5 class="fw-semibold">London is the capital of the United Kingdom</h5>
+            <p class="fw-bold">known for its rich history, iconic landmarks like Big Ben and the Tower of London, and its status as a global financial and cultural hub.</p>
+        </div>
+    </section>
+
+    <section id="tab2-content" class="content bg-danger vh-100 text-white p-5 text-center">
+        <div class="pt-5 mt-5">
+            <h1 class="display-1 fw-semibold">Paris</h1>
+            <h5 class="fw-semibold">Paris is the capital of France</h5>
+            <p class="fw-bold">famous for its iconic landmarks like the Eiffel Tower and Louvre Museum, as well as its rich history, art, and fashion.</p>
+        </div>
+    </section>
+
+    <section id="tab3-content" class="content bg-success vh-100 text-white p-5 text-center">
+        <div class="pt-5 mt-5">
+            <h1 class="display-1 fw-semibold">Tokyo</h1>
+            <h5 class="fw-semibold">Tokyo is the capital of Japane</h5>
+            <p class="fw-bold">known for its blend of ultramodern technology and traditional culture, iconic landmarks like the Tokyo Tower, and its status as one of the world's largest and most vibrant cities.</p>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
