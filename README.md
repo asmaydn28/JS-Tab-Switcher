@@ -21,12 +21,4 @@ This project provides a dynamic tab switching feature using JavaScript and Boots
 ✅ Bootstrap 5 ile şık ve modern tasarım.
 
 
-🛠 Kullanılan Teknolojiler | Technologies Used
-
-HTML
-
-CSS
-
-Bootstrap 5
-
-JavaScript
+🌐 Live Demo / Canlı Demo https://asimaydin11.netlify.app/
